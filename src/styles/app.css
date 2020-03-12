@@ -1,0 +1,46 @@
+#main{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.searchTxt{
+    margin: 20px 0px;
+    padding: 5px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    border: 3px solid #5c5c5c;
+    background-color: #ededed;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #363636;
+    transition: .5s;
+}
+.searchTxt:focus{
+    border: 3px solid #1DB954;
+}
+
+.searchBtn{
+    border: 0;
+    background-color: #1DB954;
+    font-size: 20px;
+    color: white;
+    border: 3px solid #1DB954;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.searchBtn:hover{
+    background-color: #21d86100;
+}
+
+.musicList{
+    width: 100%;
+}
